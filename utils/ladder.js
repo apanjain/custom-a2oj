@@ -1,4 +1,4 @@
-export const div_a = [
+exports.div_a = [
     [1, 'Watermelon', '4', 'A'] ,
     [2, 'Way Too Long Words', '71', 'A'] ,
     [3, 'String Task', '118', 'A'] ,
@@ -101,7 +101,7 @@ export const div_a = [
     [100, 'Cinema', '200', 'A'] 
 ]
 
-export const div_b = [
+exports.div_b = [
     [1, 'Queue at the School', '266', 'B'] ,
     [2, 'Xenia and Ringroad', '339', 'B'] ,
     [3, 'Fedor and New Game', '467', 'B'] ,
@@ -204,7 +204,7 @@ export const div_b = [
     [100, 'Three matrices', '393', 'B'] ,
 ]
 
-export const div_c = [
+exports.div_c = [
     [1, 'Given Length and Sum of Digits...', '489', 'C'] ,
     [2, 'Number of Ways', '466', 'C'] ,
     [3, 'Team', '401', 'C'] ,
@@ -307,7 +307,7 @@ export const div_c = [
     [100, 'Crossword', '47', 'C'] 
 ]
 
-export const div_d = [
+exports.div_d = [
     [1, 'Flowers', '474', 'D'] ,
     [2, 'Prizes, Prizes, more Prizes', '208', 'D'] ,
     [3, 'Xenia and Bit Operations', '339', 'D'] ,
@@ -410,7 +410,7 @@ export const div_d = [
     [100, 'Help King', '98', 'B']
 ]
 
-export const div_e = [
+exports.div_e = [
     [1, 'Pashmak and Graph', '459', 'E'] ,
     [2, 'Civilization', '455', 'C'] ,
     [3, 'Sereja and Brackets', '380', 'C'] ,
@@ -512,7 +512,7 @@ export const div_e = [
     [99, 'MUH and Lots and Lots of Segments', '471', 'E'] 
 ]
 
-export const div_1d = [
+exports.div_1d = [
     [1, 'Tricky Function', '429', 'D'] ,
     [2, 'Characteristics of Rectangles', '333', 'D'] ,
     [3, 'Antimatter', '383', 'D'] ,
@@ -615,7 +615,7 @@ export const div_1d = [
     [100, 'Cube Snake', '198', 'D'] 
 ]
 
-export const div_1e = [
+exports.div_1e = [
     [1, 'Jeff and Permutation', '351', 'E'] ,
     [2, 'Lucky Number Representation', '354', 'E'] ,
     [3, 'Lucky Queries', '145', 'E'] ,
@@ -718,7 +718,7 @@ export const div_1e = [
     [100, 'Permanent', '468', 'E']
 ]
 
-export const rating_1 = [
+exports.rating_1 = [
   [ 1, 'Young Physicist', '69', 'A' ],
   [ 2, 'Beautiful Matrix', '263', 'A' ],
   [ 3, 'Queue at the School', '266', 'B' ],
@@ -821,7 +821,7 @@ export const rating_1 = [
   [ 100, 'Adding Digits', '260', 'A' ]
 ]
 
-export const rating_2 = [
+exports.rating_2 = [
   [ 1, 'Arrival of the General', '144', 'A' ],
   [ 2, 'Beautiful Matrix', '263', 'A' ],
   [ 3, 'Ultra-Fast Mathematician', '61', 'A' ],
@@ -924,7 +924,7 @@ export const rating_2 = [
   [ 100, 'Painting Eggs', '282', 'B' ]
 ]
 
-export const rating_3 = [
+exports.rating_3 = [
   [ 1, 'Choosing Teams', '432', 'A' ],
   [ 2, 'Nearly Lucky Number', '110', 'A' ],
   [ 3, 'Amusing Joke', '141', 'A' ],
@@ -1027,7 +1027,7 @@ export const rating_3 = [
   [ 100, 'Gargari and Bishops', '463', 'C' ]
 ]
 
-export const rating_4 = [
+exports.rating_4 = [
   [ 1, 'Presents', '136', 'A' ],
   [ 2, 'Nearly Lucky Number', '110', 'A' ],
   [ 3, 'Petya and Strings', '112', 'A' ],
@@ -1130,7 +1130,7 @@ export const rating_4 = [
   [ 100, 'Multiplication Table', '448', 'D' ]
 ]
 
-export const rating_5 = [
+exports.rating_5 = [
   [ 1, 'Boy or Girl', '236', 'A' ],
   [ 2, 'Beautiful Matrix', '263', 'A' ],
   [ 3, 'Team', '231', 'A' ],
@@ -1233,7 +1233,7 @@ export const rating_5 = [
   [ 100, 'Good Substrings', '271', 'D' ]
 ]
 
-export const rating_6 = [
+exports.rating_6 = [
   [ 1, 'Candy Bags', '334', 'A' ],
   [ 2, 'Word', '59', 'A' ],
   [ 3, 'Dreamoon and Stairs', '476', 'A' ],
@@ -1336,7 +1336,7 @@ export const rating_6 = [
   [ 100, 'Tree Requests', '570', 'D' ]
 ]
 
-export const rating_7 = [
+exports.rating_7 = [
   [ 1, 'Anton and Letters', '443', 'A' ],
   [ 2, 'Way Too Long Words', '71', 'A' ],
   [ 3, 'Young Physicist', '69', 'A' ],
@@ -1439,7 +1439,7 @@ export const rating_7 = [
   [ 100, 'Xenia and Tree', '342', 'E' ]
 ]
 
-export const rating_8 = [
+exports.rating_8 = [
   [ 1, 'Sereja and Dima', '381', 'A' ],
   [ 2, 'Gravity Flip', '405', 'A' ],
   [ 3, 'Little Pony and Crystal Mine', '454', 'A' ],
@@ -1542,7 +1542,7 @@ export const rating_8 = [
   [ 100, 'Serega and Fun', '455', 'D' ]
 ]
 
-export const rating_9 = [
+exports.rating_9 = [
   [ 1, 'Fox And Snake', '510', 'A' ],
   [ 2, 'Pangram', '520', 'A' ],
   [ 3, 'Vanya and Cubes', '492', 'A' ],
@@ -1645,7 +1645,7 @@ export const rating_9 = [
   [ 100, 'Serega and Fun', '455', 'D' ]
 ]
 
-export const rating_10 = [
+exports.rating_10 = [
   [ 1, 'Anton and Letters', '443', 'A' ],
   [ 2, 'Watching a movie', '499', 'A' ],
   [ 3, 'Expression', '479', 'A' ],
@@ -1748,7 +1748,7 @@ export const rating_10 = [
   [ 100, 'Function', '455', 'E' ]
 ]
 
-export const rating_11 = [
+exports.rating_11 = [
   [ 1, 'Pangram', '520', 'A' ],
   [ 2, 'Fox And Snake', '510', 'A' ],
   [ 3, 'Insomnia cure', '148', 'A' ],
