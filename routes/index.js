@@ -25,15 +25,19 @@ const {
 } = require("../utils/ladder");
 
 //Register
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
   let handle, div, rating;
   try {
     handle = req.query.handle;
     div = req.query.div;
     rating = req.query.rating;
-    if (!handle || !div || !rating) res.render("index", { msg: null });
-  } catch (err) {
+    if (!handle || !div || !rating) {
+      res.render("index", { msg: null });
+      return next();
+    }
+  } catch {
     res.render("index", { msg: null });
+    return next();
   }
   let submissions = { result: [] };
   try {
@@ -45,6 +49,7 @@ router.get("/", async (req, res) => {
   } catch (err) {
     console.log(err);
     res.render("index", { msg: "Invalid Codeforces Handle" });
+    return next();
   }
   let ladder = [];
   let division = [];
@@ -133,6 +138,7 @@ router.get("/", async (req, res) => {
     console.log("Error in logging");
   }
   res.render("ladder", { ladder, handle, division: div_head, rating, solved });
+  return next();
 });
 
 module.exports = router;

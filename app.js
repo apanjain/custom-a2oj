@@ -10,8 +10,4 @@ app.use(methodOverride("_method"));
 
 app.use("/", require("./routes/index"));
 
-//Server
-app.listen(process.env.PORT, function () {
-  console.log(`Server started on PORT ${process.env.PORT}`);
-  console.log(`Visit http://localhost:${process.env.PORT}`);
-});
+module.exports = app;
